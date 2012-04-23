@@ -65,7 +65,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6DB74</string>
+				<string>#E6DB74</string><!-- yellow -->
 			</dict>
 		</dict>
 		<dict>
@@ -76,7 +76,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#AE81FF</string><!-- purple -->
 			</dict>
 		</dict>
 
@@ -121,7 +121,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#F92672</string><!-- pink -->
 			</dict>
 		</dict>
 		<dict>
@@ -212,7 +212,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#268BD2</string>586E75
+				<string>#268BD2</string><!-- blue -->
 			</dict>
 		</dict>
 		<dict>
@@ -223,7 +223,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586E75</string>
+				<string>#586E75</string><!-- grey -->
 			</dict>
 		</dict>
 		<dict>
@@ -236,7 +236,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#A6E22E</string><!-- bright green -->
 			</dict>
 		</dict>
 		<dict>
@@ -454,7 +454,75 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e31f3b</string>
+				<string>#e31f3b</string><!-- red-ish -->
+			</dict>
+		</dict>
+
+		<!-- CSS -->
+		<dict>
+			<key>scope</key>
+			<string>support.type.property-name.css, meta.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#47c7e0</string><!-- 86cbe1 -->
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Tag</string>
+			<key>scope</key>
+			<string>entity.name.tag.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#88edff</string><!-- blue -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: rgba function</string>
+			<key>scope</key>
+			<string>support.function.misc.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD971F</string><!-- orange -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: font constants</string>
+			<key>scope</key>
+			<string>support.constant.font-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string><!-- yellow -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: id (#)</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a1ea0f</string><!-- green -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: comment</string>
+			<key>scope</key>
+			<string>comment.block.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e31f3b</string><!-- red-ish -->
 			</dict>
 		</dict>
 
