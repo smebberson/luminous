@@ -445,7 +445,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF0099</string>
+				<string>#F92672</string><!-- pink -->
 			</dict>
 		</dict>
 		<dict>
@@ -465,7 +465,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#47c7e0</string><!-- 86cbe1 -->
+				<string>#47c7e0</string>
 				<key>fontStyle</key>
 				<string></string>
 			</dict>
@@ -523,6 +523,63 @@
 			<dict>
 				<key>foreground</key>
 				<string>#e31f3b</string><!-- red-ish -->
+			</dict>
+		</dict>
+
+		<!-- Jade -->
+		<dict>
+			<key>name</key>
+			<string>Jade: doctype</string>
+			<key>scope</key>
+			<string>comment.other.doctype.jade</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string><!-- pink -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jade: include</string>
+			<key>scope</key>
+			<string>variable.control.import.include.jade</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD971F</string><!-- orange -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jade: pipe</string>
+			<key>scope</key>
+			<string>text.block.pipe.jade</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string><!-- orange -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jade: #id</string>
+			<key>scope</key>
+			<string>constant.id.tag.jade</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a1ea0f</string><!-- green -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jade: .class</string>
+			<key>scope</key>
+			<string>string.name.classes.tag.jade</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string><!-- green -->
 			</dict>
 		</dict>
 
