@@ -1,0 +1,11 @@
+{
+  "name": "luminous",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "The luminous theme for Atom",
+  "repository": "https://github.com/atom/atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
